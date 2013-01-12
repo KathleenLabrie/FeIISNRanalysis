@@ -1,0 +1,21 @@
+#NSNR           = 7
+#SNRATE         = 0.
+#NAMBIENT       = 0
+#MODPOS         = user
+#SCALERAD       = 0
+#ELLIP          = 0.
+#PA             = 0.
+#MODDIAM        = user
+#E51            = 1.00
+#METAL          = 1
+#MODLUM         = user
+#COMP_RATIO     = 1.
+#
+#GCD[pc]  GCL[deg]  D[pc]  SB[W/pc2]
+  106.28  70.20     28.00  2.696e+26
+  76.00   90.00     12.00  8.574e+26
+  43.08   111.80    4.00   1e+27
+  73.76   12.53     12.00  1.276e+27
+  28.84   33.69     4.00   6e+26
+  24.33   350.54    4.00   6e+26
+  89.44   169.70    4.00   1.128e+27

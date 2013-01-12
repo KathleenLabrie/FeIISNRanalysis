@@ -1,0 +1,11 @@
+mksnrpop.output=rad500_01_10.pop		# Name of the output file
+mksnrpop.nsnr=500		# Number of SNR to generate
+mksnrpop.snrate=0.01		# SN rate [1/yr]
+mksnrpop.nambient=10.		# Ambient number density
+mksnrpop.life=1e5		# Life time of the SNRs
+mksnrpop.scalerad=150.		# Scale radius of the galactocentric distribution
+mksnrpop.ellip=0.89		# Ellipticity of the galactocentric distribution
+mksnrpop.pa=297.			# Position angle of the galactocentric distribution
+mksnrpop.moddiam=radiative	# Diameter distribution model
+mksnrpop.modpos=gaussian	# Galactocentric distribution model
+mksnrpop.modlum=morel		# Luminosity distribution model

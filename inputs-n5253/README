@@ -1,0 +1,9 @@
+Things to update for each cube are:
+- dofit*.sh: the cube number
+- snrpopfit.param: the parameter space.
+
+Things to update when emitting lifetime is changed are:
+- mksnrpop.param: the life parameter.  e.g. 1e5, 0=unlimited.
+
+dofit-wud.sh is used during weekends or when the computer might
+be used for other purposes.

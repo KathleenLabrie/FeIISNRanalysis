@@ -1,0 +1,15 @@
+snrpopfit.input=n5253_core_FeIIline.fits	# Input image.  Real image.
+snrpopfit.output=		# Root of the outputs
+snrpopfit.noiseimg=n5253_noise_FeII.fits # Image used to calculate Poisson noise
+snrpopfit.section=[8:94,8:94] # Section to use for the fit. IRAF format.
+snrpopfit.nsnr=100,250,400,1000,2500		# Number of SNRs
+snrpopfit.snrate=0.0005,0.001,0.004,0.01,0.025		# SN rate
+snrpopfit.nambient=0.5,1,2,3,10		# Ambient density
+snrpopfit.lthreshold=-50.	# Low flux cutoff
+snrpopfit.hthreshold=1000.	# High flux cutoff
+snrpopfit.mksnrpop=mksnrpop.param # Name of the paramfile for mksnrpop
+snrpopfit.artimg=artimg.param	# Name of the paramfile for artimg
+snrpopfit.addpop=addsrc.pop		# Names of additional populations
+snrpopfit.convolve=yes		# Convolve image before comparing? (yes/no)
+snrpopfit.sigma=1.		# If convolve is yes, sigma of gaussian filter
+snrpopfit.width=4.		# If convolve is yes, width,in sigma, of the kernel
