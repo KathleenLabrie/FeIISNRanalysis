@@ -1,5 +1,5 @@
 #!/bin/sh
-alias snrpopfit='/net/nihal/home/klabrie/prgc/bin/snrpopfit'
+#alias snrpopfit='/net/nihal/home/klabrie/prgc/bin/snrpopfit'
 
 if [ -f 'done' ]; then
     rm 'done'

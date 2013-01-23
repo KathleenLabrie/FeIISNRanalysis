@@ -1,5 +1,5 @@
 #!/bin/sh
-alias snrpopfit='/home/klabrie/prgc/bin/snrpopfit'
+#alias snrpopfit='/home/klabrie/prgc/bin/snrpopfit'
 
 echo `date` >> cube1.log
 echo '   Launching 100 models - Models 1 to 100.' >> cube1.log
