@@ -6,7 +6,7 @@ if [ -f 'done' ]; then
 fi
 
 echo `date` >> cube10.log
-i=77
+i=1
 while ((i <= 100))
 do
     echo -n '  Launching 1 model - Model '$((i))' at ' >> cube10.log
@@ -18,7 +18,7 @@ done
 
 if [ -f fitn1569probap100.dat ]; then
     echo "    Completed" >> cube10.log
-    echo "done 24" > done
+    echo "done 100" > done
 else
     echo "    ERROR - Crashed? Hung?" >> cube10.log
 fi

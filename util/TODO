@@ -1,7 +1,2 @@
-- Need a script to create the README_cube.  See sample_README_cube for
-  format.
-- Need a script to not only create cubeN directories but to populate
-  them and set the input parameters (e.g. automatically update the nsnr
-  and snrate in snrpopfit.param, update lifetime in mksnrpop.param)
 - Need a Makefile to compile (if necessary) and install the utility scripts.
 
