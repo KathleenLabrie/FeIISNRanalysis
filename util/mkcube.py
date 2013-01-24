@@ -117,7 +117,7 @@ def mkcube(options, axes_names, axes_grid_strings):
         id += 1
     
     if options.cubes == None:
-        firstcube = cube[0].id
+        firstcube = cubes[0].id
         lastcube = cubes[-1].id
     elif re.match('\d+:\d+', options.cubes):
         firstcube, lastcube = [int(x) for x in options.cubes.split(':')]
