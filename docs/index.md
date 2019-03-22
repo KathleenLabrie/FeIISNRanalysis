@@ -1,4 +1,5 @@
 ## Is this picked up
 
-Here's a link [RD](docs/README.html)
+Here's a link [RD](README.md)
 
+Another [test](test.md)
