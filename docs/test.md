@@ -6,3 +6,7 @@ try a table:
 |-------|------|
 | blah  | blah |
 
+a html one:
+<table><tr><th>col1</th></tr>
+       <tr><td>blah</td></tr>
+</table>
